@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Roboto:wght@900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
+    
+}
+a{
+    text-decoration: none;
 }
 
 .home-section{
@@ -12,16 +20,18 @@
     min-height: 100vh;
 }
 .overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
     width: 100%;
     height: 100vh;
 }
 .navigation-section {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    background-color: #0606063b;
-    /* color: white; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0606063b;
+	min-height: 15vh;
+	position: fixed;
+	width: 100%;
 }
 .logo{
     color: white;
@@ -42,6 +52,72 @@
 .nav-items ul li a:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
-.social-icon{
+.social-icon span i{
     color: white;
+}
+.content-section{
+    width: 100%;
+    height: 100vh;
+}
+.home-content {
+	text-align: center;
+	padding: 131px 0;
+	color: white;
+}
+.home-content h1 {
+	font-size: 65px;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+}
+.home-content h1 span{
+    color: gray;
+}
+.home-content h5 {
+	text-transform: capitalize;
+	font-size: 22px;
+	letter-spacing: 3px;
+	font-weight: ;
+}
+.about-me-section{
+    padding: 160px 255px;
+    display: flex;
+    gap: 1em;
+}
+.about-info{
+    width: 70%;
+}
+.about-info h2 {
+	text-transform: uppercase;
+	font-size: 35px;
+    position: relative;
+}
+.about-info h2::before {
+	content: "";
+	position: absolute;
+	left: -111px;
+	top: 17px;
+	width: 78px;
+	height: 3px;
+	background-color: #eeb255;
+}
+.about-info p {
+	padding-right: 70px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #3a3a3a;
+}
+.about-info p span{
+    background-color: #eeb255;
+    color: white;
+}
+.about-info .btn {
+	float: right;
+	margin-right: 90px;
+}
+.about-img{
+    width: 30%;
+}
+.about-img img {
+	width: 100%;
+	border: 7px solid #c6c3c3;
 }
