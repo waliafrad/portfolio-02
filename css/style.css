@@ -120,8 +120,8 @@ a{
     color: white;
 }
 .about-info .btn {
-	float: right;
-	margin-right: 90px;
+    float: right;
+    margin-top: 22px;
 }
 .about-img{
     width: 30%;
@@ -129,4 +129,22 @@ a{
 .about-img img {
 	width: 100%;
 	border: 7px solid #c6c3c3;
+}
+.btn a {
+    background-color: white;
+    box-shadow: 5px 3px 6px #919191;
+    padding: 12px 30px;
+    color: #c5c3c3;
+}
+.quote-section{
+    width: 100%;
+}
+.quote-heading{
+    margin: auto;
+    display: block;
+    width: 100%;
+    
+}
+.quote-heading h1{
+    font-size: 100px;
 }
