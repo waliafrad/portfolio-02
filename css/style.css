@@ -136,15 +136,56 @@ a{
     padding: 12px 30px;
     color: #c5c3c3;
 }
-.quote-section{
-    width: 100%;
+.quote-section {
+	width: 100%;
+	background-color: #c5c3c3;
+	padding: 100px 0;
+	padding-bottom: 0;
 }
-.quote-heading{
-    margin: auto;
-    display: block;
-    width: 100%;
-    
+.quote-info {
+	width: auto;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
 }
-.quote-heading h1{
-    font-size: 100px;
+.quote-info p {
+	margin-top: -226px;
+	padding-bottom: 100px;
+}
+.quote-heading {
+	margin: auto;
+	display: block;
+	position: relative;
+	width: 35%;
+}
+.quote-heading h2 {
+	font-size: 37px;
+	text-transform: uppercase;
+	color: #3e3d3d;
+	position: absolute;
+	left: 0;
+	top: 124px;
+	z-index: 3;
+}
+.quote-heading h1 {
+	font-size: 440px;
+    color: white;
+	font-family: initial;
+	letter-spacing: -14px;
+	text-align: center;
+	margin: auto;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.quote-heading h1::before {
+	content: "";
+	position: absolute;
+	background-color: goldenrod;
+	width: 357px;
+	height: 3px;
+	left: 50%;
+	bottom: 309px;
+	z-index: -1;
+	transform: translateX(-50%);
 }
