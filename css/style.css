@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Roboto:wght@900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
@@ -250,6 +257,8 @@ a{
 	padding: 40px 0;
 }
 .project-info-group{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .project-btn-gold a {
