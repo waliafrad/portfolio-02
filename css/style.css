@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Roboto:wght@900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
@@ -25,9 +32,14 @@ a{
     height: 100vh;
 }
 .navigation-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background-color: #0606063b;
 	min-height: 15vh;
 	position: fixed;
@@ -38,6 +50,8 @@ a{
 }
 .nav-items ul{
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-items ul li{}
@@ -47,6 +61,8 @@ a{
     padding: 10px 12px;
     display: inline-block;
     margin-right: 2px;
+    -webkit-transition: all .3s ease-in .1s;
+    -o-transition: all .3s ease-in .1s;
     transition: all .3s ease-in .1s;
 }
 .nav-items ul li a:hover{
@@ -72,7 +88,9 @@ a{
     width: 100%;
     height: auto;
     color: white;
-    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
 }
 .home-content h1 {
 	font-size: 65px;
@@ -89,6 +107,8 @@ a{
 }
 .about-me-section{
     padding: 160px 255px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 1em;
 }
@@ -132,7 +152,8 @@ a{
 }
 .btn a {
     background-color: white;
-    box-shadow: 5px 3px 6px #919191;
+    -webkit-box-shadow: 5px 3px 6px #919191;
+            box-shadow: 5px 3px 6px #919191;
     padding: 12px 30px;
     color: #c5c3c3;
 }
@@ -145,7 +166,9 @@ a{
 .quote-info {
 	width: auto;
 	margin-left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 	text-align: center;
 }
 .quote-info p {
@@ -187,5 +210,7 @@ a{
 	left: 50%;
 	bottom: 309px;
 	z-index: -1;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 }
