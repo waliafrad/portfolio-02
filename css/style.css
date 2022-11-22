@@ -214,3 +214,72 @@ a{
 	    -ms-transform: translateX(-50%);
 	        transform: translateX(-50%);
 }
+.project-section{
+	padding: 100px 0;
+}
+.project-info{
+	width: 490px;
+	margin: auto;
+}
+.project-info h1 {
+	font-size: 86px;
+	text-transform: uppercase;
+	color: #d9d2d2;
+	text-align: center;
+}
+.project-info h2 {
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: -70px;
+	font-size: 35px;
+}
+.project-info h2::before {
+	content: "";
+	position: absolute;
+	left: -22px;
+	top: 13px;
+	width: 67px;
+	height: 4px;
+	background-color: goldenrod;
+}
+.width{
+	width: 50%;
+}
+.project-heading-padding{
+	padding: 40px 0;
+}
+.project-info-group{
+	display: flex;
+}
+.project-btn-gold a {
+	background-color: goldenrod;
+	color: white;
+	letter-spacing: 3px;
+	position: relative;
+	left: 50%;
+	top: 100px;
+}
+.contact-section{
+	padding: 100px 0;
+}
+.contact-form{
+	margin: auto;
+	width: 685px;
+	text-align: center;
+}
+.contact-form form input {
+	background-color: lightgray;
+	border: gray;
+	border-bottom: 2px solid white;
+	color: #b9b5b5;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 10px;
+}
+.contact-form form input:focus{
+	outline: none;
+}
+.contact-form form input:focus{
+	border-color: goldenrod;
+}
