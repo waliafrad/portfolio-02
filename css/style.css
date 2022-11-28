@@ -67,6 +67,7 @@ a{
     color: white;
     padding: 10px 12px;
     display: inline-block;
+	cursor: pointer;
     margin-right: 2px;
     -webkit-transition: all .3s ease-in .1s;
     -o-transition: all .3s ease-in .1s;
